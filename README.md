@@ -1,15 +1,14 @@
-- cd komutu dizinler arası geçiş yapmayı sağlar. Örneğin Home klasöründen İndirilenler klasörüne geçiş yapmak için;
+cd komutu bir dizin ismi ile birlikte yazılırsa o dizine geçiş yapmanı sağlar. Tek başına kullanımı home dizinine geçiş yaptırır. Örneğin Home klasöründen İndirilenler klasörüne geçiş yapmak için;
 ```
 cd İndirilenler/
 ```
-Bir önceki dizine geçiş yapmak için
-```
-cd ..
-```
-Başka klasörden home dizinine direkt geçiş yapmak için
+Tek başına kullanımı ya da (~) ile kullanımı home dizinine geçiş yaptırır.
 ```
 cd ~
 
 cd
 ```
-sadece cd kullanımı ya da cd ~ kullanımı sizi home dizinine götürür
+Bir önceki dizine geçiş yapmak için
+```
+cd ..
+```
