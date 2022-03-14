@@ -2,6 +2,7 @@ pwd komutu çalışmakta olduğunuz dizini gösterir.
 ```
 pwd
 ```
+
 cd komutu bir dizin ismi ile birlikte yazılırsa o dizine geçiş yapmanı sağlar. Tek başına kullanımı home dizinine geçiş yaptırır. Örneğin Home klasöründen İndirilenler klasörüne geçiş yapmak için;
 ```
 cd İndirilenler/
@@ -16,8 +17,6 @@ Bir önceki dizine geçiş yapmak için
 ```
 cd ..
 ```
---
---
 
 ls komutu bulunduğun dizindeki dosya ve klasörleri gösterir.
 ```
