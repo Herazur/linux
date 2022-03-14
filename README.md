@@ -17,7 +17,6 @@ Bir önceki dizine geçiş yapmak için
 ```
 cd ..
 ```
-
 ls komutu bulunduğun dizindeki dosya ve klasörleri gösterir.
 ```
 ls
@@ -30,11 +29,11 @@ ls /Kök dizinin içeriğini listelemek için komutu yazın :
 ```
 ls /
 ```
-Üst dizinin içeriğini bir seviye yukarıda listelemek için komutu yazın .
+Üst dizinin içeriğini listelemek için komutu yazın .
 ```
 ls ..
 ```
-İki seviye yukarıdaki içerikler için kullanın :
+İki seviye üst dizin içerikleri için kullanın :
 ```
 ls ../..
 ```
@@ -45,4 +44,28 @@ ls ~
 Yalnızca dizinleri listelemek için komutu yazın:
 ```
 ls -d */
+```
+Gizli dosyalar veya dizinler dahil olmak üzere dosya veya dizinleri listelemek için aşağıdaki komutu yazın. Linux'ta . ile başlayan her şey gizli dosya olarak kabul edilir:
+```
+ls -a
+```
+Dosyaları veya dizinleri listelemek ve son değiştirilme tarihine göre azalan düzende (büyükten küçüğe) sıralamak için komutu yazın:
+```
+ls -t
+```
+Dosyaları veya dizinleri listelemek ve boyuta göre azalan düzende (büyükten küçüğe) sıralamak için ls -S( S büyük harftir) komutunu yazın:
+```
+ls -S
+```
+Dizinin içeriğini aşağıdakileri içeren sütunlarla bir tablo biçiminde listelemek için aşağıdaki komutu yazın
+
+- içerik izinleri
+- içeriğe bağlantı sayısı
+- içeriğin sahibi
+- içeriğin grup sahibi
+- içeriğin bayt cinsinden boyutu
+- içeriğin son değiştirilme tarihi / saati
+- dosya veya dizin adı
+```
+ls -l
 ```
