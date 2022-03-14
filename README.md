@@ -102,3 +102,32 @@ mkdir / Yeni bir dizin oluşturun.
 ```
 mkdir deneme
 ```
+
+rmdir / Boş dizinleri silin.
+--
+```
+rmdir directory1
+```
+
+rm -fr / Dolu dizini silin
+--
+
+```
+rm -fr directory1
+```
+
+rm / dosya silin
+--
+```
+rm file1
+```
+touch / boş bir dosya oluşturun
+--
+```
+touch file1
+```
+clear / Yeni bir başlangıç için bir komut satırı ekranını/penceresini temizleyin.
+--
+```
+clear
+```
