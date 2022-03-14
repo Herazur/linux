@@ -84,3 +84,7 @@ a.txt adlı bir dosyanız varsa ve bu dosyanın şu adlı bir kopyasını istiyo
 ```
 cp a.txt b.txt
 ```
+Bir dizini kopyalamak için, -r eklemeniz gerekir
+```
+cp -r directory-1 directory-2
+```
