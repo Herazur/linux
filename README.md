@@ -1,11 +1,11 @@
-pwd
+pwd / Bulunduğun dizine bakın
 --
 
 pwd komutu çalışmakta olduğunuz dizini gösterir.
 ```
 pwd
 ```
-cd
+cd / Dizinler arası geçiş yapın
 --
 
 cd komutu bir dizin ismi ile birlikte yazılırsa o dizine geçiş yapmanı sağlar. Tek başına kullanımı home dizinine geçiş yaptırır. Örneğin Home klasöründen İndirilenler klasörüne geçiş yapmak için;
@@ -22,7 +22,7 @@ Bir önceki dizine geçiş yapmak için
 ```
 cd ..
 ```
-ls
+ls / Dosya ve klasörleri listeleyin
 --
 
 ls komutu bulunduğun dizindeki dosya ve klasörleri gösterir.
@@ -77,7 +77,7 @@ Dizinin içeriğini aşağıdakileri içeren sütunlarla bir tablo biçiminde li
 ```
 ls -l
 ```
-cp
+cp / Dosyaları kopyalayın
 --
 
 a.txt adlı bir dosyanız varsa ve bu dosyanın şu adlı bir kopyasını istiyorsanız b.txt:
@@ -87,4 +87,18 @@ cp a.txt b.txt
 Bir dizini kopyalamak için, -r eklemeniz gerekir
 ```
 cp -r directory-1 directory-2
+```
+mv / Dosyaları veya dizinleri taşıyın.
+--
+
+"todo.txt" dosyasını "Belgeler" dizinine taşır:
+```
+mv todo.txt /home/herazur/Documents
+```
+
+mkdir / Yeni bir dizin oluşturun.
+--
+
+```
+mkdir deneme
 ```
