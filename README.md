@@ -9,6 +9,7 @@ cd ..
 Başka klasörden home dizinine direkt geçiş yapmak için
 ```
 cd ~
+ya da
 cd
 ```
 sadece cd kullanımı ya da cd ~ kullanımı sizi home dizinine götürür
