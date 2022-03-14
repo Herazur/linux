@@ -121,9 +121,16 @@ rm / dosya silin
 ```
 rm file1
 ```
-cat / Bir dosyanın içeriğini ekranda görüntüleyin.
+cat / Bir dosya oluşturun veya içeriğini ekranda görüntüleyin.
+Bir dosya ve içeriğini oluşturun
 ```
-cat
+cat > file123
+ejfısojfo
+fespokfpoke
+```
+İçeriğini ekranda görüntüleyin
+```
+cat file123
 ```
 touch / boş bir dosya oluşturun
 --
