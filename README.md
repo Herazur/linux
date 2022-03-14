@@ -17,6 +17,7 @@ Bir önceki dizine geçiş yapmak için
 cd ..
 ```
 --
+--
 
 ls komutu bulunduğun dizindeki dosya ve klasörleri gösterir.
 ```
