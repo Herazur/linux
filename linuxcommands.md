@@ -121,13 +121,51 @@ rm / dosya silin
 ```
 rm file1
 ```
+cat / Bir dosyanın içeriğini ekranda görüntüleyin.
+```
+cat
+```
 touch / boş bir dosya oluşturun
 --
 ```
 touch file1
 ```
-clear / Yeni bir başlangıç için bir komut satırı ekranını/penceresini temizleyin.
+clear / komut satırı ekranını/penceresini temizleyin.
 --
 ```
 clear
+```
+chmod / Bir dosyanın izinlerini değiştirin.
+--
+todo.txt" dosyasını herkes tarafından okunabilir, yazılabilir ve yürütülebilir hale getirecektir:
+```
+chmod 777 todo.txt
+```
+
+sudo / Yönetici veya kök izinleri gerektiren görevleri gerçekleştirin.
+--
+```
+sudo
+```
+history / Komut geçmişine bak
+--
+```
+history
+```
+
+kill / Bir işlemi durdurun.
+--
+```
+kill
+```
+
+ssh / Ağ üzerinden başka bir Linux makinesinde uzaktan oturum açın.
+--
+```
+ssh userr@ip
+```
+top / sisteminizde kullanılan kaynakları görüntüler.
+--
+```
+top
 ```
