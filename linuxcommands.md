@@ -176,3 +176,15 @@ top / sisteminizde kullanılan kaynakları görüntüler.
 ```
 top
 ```
+
+ping / Bir sunucuya bağlantı durumunuzu kontrol etmek için ping komutunu kullanın
+--
+```
+ping google.com
+```
+echo / bazı verileri bir dosyaya taşımak için kullanılır
+--
+Örneğin, name.txt adlı bir dosyaya “Merhaba, benim adım Furkan” metnini eklemek isterseniz:
+```
+echo Merhaba, benim adım Furkan >> name.txt
+```
