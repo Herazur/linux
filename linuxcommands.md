@@ -184,7 +184,7 @@ ping google.com
 ```
 echo / bazı verileri bir dosyaya taşımak için kullanılır
 --
-Örneğin, name.txt adlı bir dosyaya “Merhaba, benim adım Furkan” metnini eklemek isterseniz:
+Örneğin, name.txt adlı bir dosyaya “Merhaba, benim adım ..” metnini eklemek isterseniz:
 ```
-echo Merhaba, benim adım Furkan >> name.txt
+echo Merhaba, benim adım isim >> name.txt
 ```
