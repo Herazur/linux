@@ -2,6 +2,7 @@ Network Protocols
 --
 
 **Taşıma katmanı ağ protokolleri**
+--
 
 ## TCP
 
@@ -18,6 +19,7 @@ Artık TCP, bağlantı odaklı bir protokoldür, bu da temelde iletişim kuran i
 UDP, TCP'ye çok benzer. UDP ayrıca veri göndermek ve almak içindir. Ancak temel fark, UDP'nin bağlantısız olmasıdır. Bu, bir oturum oluşturulmadığı ve veri teslimini garanti etmediği anlamına gelir. Dolayısıyla, bir bilgisayar verilerini gönderdiğinde, verilerin diğer uçta alınıp alınmadığı gerçekten umursamaz ve bu nedenle UDP "ateşle ve unut" (fire-and-forget) protokolü olarak bilinir, çünkü veri gönderir ve ona ne olduğu gerçekten umrunda olmaz. Unutulmaması gereken bir diğer nokta da, veri dağıtımını garanti etmemenin gerektirdiği daha az ek yük nedeniyle UDP'nin TCP'den daha hızlı olmasıdır.
 
 **Uygulama katmanı ağ protokolleri**
+--
 
 ## DHCP 
 
