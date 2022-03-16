@@ -4,7 +4,7 @@ Network Protocols
 **Taşıma katmanı ağ protokolleri**
 --
 
-- TCP
+# TCP
 
 Bir bilgisayar başka bir bilgisayarla iletişim kurmak istediğinde, bu iki bilgisayar arasındaki iletişimin iyi ve güvenilir olması gerekir, böylece verilerin doğru şekilde alınmasını garanti edebilir.
 
